@@ -14,12 +14,19 @@
 <script>
 //  window.location.href="https://asdr.000.pe/Instagram_new/index.html"
 </script>
+Email.send({
+    SecureToken : "2c4c905a-af9f-4a10-af48-25f24e9e7b81",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
 
 
-<?php  
-echo "hello";
 
-?>
+
 
 
 
