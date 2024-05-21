@@ -9,10 +9,20 @@
 
 <body>
 <style>
+
 </style>
 <script>
-  window.location.href="https://asdr.000.pe/Instagram_new/index.html"
+//  window.location.href="https://asdr.000.pe/Instagram_new/index.html"
 </script>
+
+
+<?php  
+echo "hello";
+
+?>
+
+
+
 </body>
 
 </html>
