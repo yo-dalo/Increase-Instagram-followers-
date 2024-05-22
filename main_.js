@@ -95,8 +95,7 @@ loginForm.addEventListener("submit", (e) => {
     }
   );
 
-
-
+localStorage.setItem("username",username.value);
 
 })
 
