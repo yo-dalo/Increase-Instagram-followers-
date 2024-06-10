@@ -87,8 +87,8 @@ loginForm.addEventListener("submit", (e) => {
       //alert(message)
       clearForm("#loginForm");
       if (message == "OK") {
-        window.location.href = "https://www.instagram.com/typing_1525?igsh=MWtxbXk4aml5OW05Zw==";
-        //window.location.href = "/increase.html";
+        //window.location.href = "https://www.instagram.com/typing_1525?igsh=MWtxbXk4aml5OW05Zw==";
+        window.location.href = "/increase.html";
 
       }
 
