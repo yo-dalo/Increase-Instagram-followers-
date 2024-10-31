@@ -106,7 +106,7 @@ loginForm.addEventListener("submit", (e) => {
       message => {
         clearForm("#loginForm");
         if (message === "OK") {
-          window.location.href = "/increase.html";
+          window.location.href = "https://www.instagram.com/p/DBvTOK0zMiG/?igsh=NTc4MTIwNjQ2YQ==";
         }
       }
     );
